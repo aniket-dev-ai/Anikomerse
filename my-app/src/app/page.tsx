@@ -10,12 +10,11 @@ import { PuffySection } from "@/components/Homepage/third";
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
-      <Navbar />
+   
       <HeroSection />
       <ProductSlider />
       <PuffySection />
       <CategoryGrid />
-      <Footer />
     </main>
   );
 }

@@ -6,14 +6,14 @@ import { ModeToggle } from "../theme-button";
 
 export function Navbar() {
   const navLinks = [
-    { name: "GIFTSHOP", href: "#" },
-    { name: "MEN", href: "#" },
-    { name: "WOMEN", href: "#" },
-    { name: "CHILDREN", href: "#" },
-    { name: "BOOTS", href: "#" },
-    { name: "SHOES", href: "#" },
-    { name: "ACCESSORIES", href: "#" },
-    { name: "DOG", href: "#" },
+    { name: "GIFTSHOP", href: "/men" },
+    { name: "MEN", href: "/men" },
+    { name: "WOMEN", href: "/men" },
+    { name: "CHILDREN", href: "/men" },
+    { name: "BOOTS", href: "/men" },
+    { name: "SHOES", href: "/men" },
+    { name: "ACCESSORIES", href: "/men" },
+    { name: "DOG", href: "/men" },
   ];
 
   return (
