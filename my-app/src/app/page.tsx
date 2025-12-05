@@ -1,4 +1,5 @@
 import { HeroSection } from "@/components/Homepage/First";
+import { CategoryGrid } from "@/components/Homepage/forth";
 import { Navbar } from "@/components/Homepage/NavBar";
 import { ProductSlider } from "@/components/Homepage/ProductSlider/Slider";
 import { PuffySection } from "@/components/Homepage/third";
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <ProductSlider />
       <PuffySection />
+      <CategoryGrid />
     </main>
   );
 }

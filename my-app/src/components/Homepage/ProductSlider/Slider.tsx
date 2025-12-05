@@ -118,7 +118,7 @@ export function ProductSlider() {
           <ProductCard
             key={`${product.id}-${index}`}
             // Mobile: 100% width (1 card). Desktop (md): 20% width (5 cards).
-            className="!w-full !min-w-full md:!w-[20%] md:!min-w-[20%]"
+            className="w-full! min-w-full! md:w-[20%]! md:min-w-[20%]!"
             title={product.title}
             price={product.price}
             image1={product.img1}

@@ -21,11 +21,11 @@ export function ProductCard({
   return (
     <div
       className={cn(
-        "group relative flex-shrink-0 w-[280px] md:w-[320px] cursor-pointer select-none",
+        "group relative shrink-0 w-[280px] md:w-[320px] cursor-pointer select-none",
         className
       )}
     >
-      <div className="relative w-full aspect-[3/4] overflow-hidden rounded-sm bg-muted mb-3">
+      <div className="relative w-full aspect-3/4 overflow-hidden rounded-sm bg-muted mb-3">
         <Image
           src={image1}
           alt={title}
