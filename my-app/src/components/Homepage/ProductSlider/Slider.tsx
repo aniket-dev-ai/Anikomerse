@@ -98,7 +98,7 @@ export function ProductSlider() {
   };
 
   return (
-    <div className="w-full py-10 bg-background text-foreground">
+    <div className="w-full pt-5 bg-background text-foreground">
       <div className="px-8 mb-6">
         <h2 className="text-2xl font-black uppercase tracking-tighter">
           New Arrivals
@@ -107,7 +107,7 @@ export function ProductSlider() {
 
       <div
         ref={sliderRef}
-        className="flex overflow-x-auto cursor-grab px-0 pb-8 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+        className="flex overflow-x-auto cursor-grab px-0  [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
         onMouseDown={handleMouseDown}
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}

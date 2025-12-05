@@ -41,10 +41,7 @@ export function ProductCard({
           className="absolute inset-0 object-cover object-center opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-
-        <div className="absolute top-2 left-2 bg-primary text-primary-foreground text-[10px] font-bold px-2 py-1 uppercase tracking-widest">
-          New
-        </div>
+ 
       </div>
 
       <div className="space-y-1">
